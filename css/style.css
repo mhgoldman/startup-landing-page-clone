@@ -60,7 +60,7 @@ body {
   color: #333333;
 }
 
-.background-image {
+.intro {
   background-image: url("../images/first-background.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -70,25 +70,25 @@ body {
   overflow: auto;
 }
 
-.background-image .content {
+.intro .content {
   color: #fff;
   text-align: center;
 }
 
-.background-image h1 {
+.intro h1 {
   font-weight: 100;  
   font-size: 3.125rem;
   margin-top: 13.125rem;
   margin-bottom: 0;
 }
 
-.background-image h2 {
+.intro h2 {
   font-weight: 100;    
   font-size: 1.563rem;
   margin-top: 1.25rem;
 }
 
-.background-image button {
+.intro button {
   background-color: #f15a29;
   border: 0;
   color: #fff;
@@ -98,7 +98,7 @@ body {
   font-size: 1.125rem;
 }
 
-.background-image button:hover {
+.intro button:hover {
   cursor: pointer;
   background-color: #d9400e;
 }
