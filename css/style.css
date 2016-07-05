@@ -1,3 +1,5 @@
+/* TODO - horizontal scrollbar??? */
+
 html {
   box-sizing: border-box;
 }
@@ -20,6 +22,7 @@ body {
   padding: 0 0.938rem;
   margin: 0 auto;
   width: 60rem;
+  text-align: center;
 }
 
 .logo {
@@ -28,7 +31,7 @@ body {
   background-position: center 1rem;
   height: 4.375rem;
   width: 1.625rem;
-  display: inline-block;
+  /*display: inline-block;*/
   /*float: left;*/
 }
 
@@ -72,19 +75,28 @@ body {
 
 .intro .content {
   color: #fff;
-  text-align: center;
+}
+
+h1 {
+  font-weight: 300;  
+  font-size: 3.125rem;  
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 2.75rem;
+}
+h3 {
+  font-weight: 100;    
+  font-size: 1.563rem;
 }
 
 .intro h1 {
-  font-weight: 100;  
-  font-size: 3.125rem;
   margin-top: 13.125rem;
   margin-bottom: 0;
 }
 
-.intro h2 {
-  font-weight: 100;    
-  font-size: 1.563rem;
+.intro h3 {
   margin-top: 1.25rem;
 }
 
@@ -101,4 +113,17 @@ body {
 .intro button:hover {
   cursor: pointer;
   background-color: #d9400e;
+}
+
+.three-icons .content {
+  color: #000;
+}
+
+.three-icons h2 {
+  margin: 9.5rem 0 3.125rem;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 2rem;
 }
