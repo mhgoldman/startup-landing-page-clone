@@ -15,7 +15,6 @@ body {
   position: fixed;
   width: 100%;
   z-index: 9999;  
-  top: 0;
   height: 4.375rem;
 }
 
@@ -68,7 +67,6 @@ body {
   background-position: center bottom;
   background-size: cover;
   height: 45.938em;
-  margin: 0.3em 0;
   overflow: hidden;
 }
 
